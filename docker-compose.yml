@@ -1,0 +1,15 @@
+version: "3.9" # Specify Docker Compose file version
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+
+  nginx:
+    # If you created a custom NGINX Dockerfile:
+    build: ./nginx # Build the NGINX image from the ./nginx directory
+    # OR, if you're using the official NGINX image directly:
+    # image: nginx:latest
+    ports:
+      - "80:80"
