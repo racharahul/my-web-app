@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: racharahul # Use the secret name
-          password: dckr_pat_EPkF28lj9neFfaKENPCKYB1N7b8 # Use the secret pass
+          password: dckr_pat_EPkF28lj9neFfaKENPCKYB1N7b8 # Use the secret password
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
