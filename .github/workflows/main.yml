@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_USERNAME }} # Use the secret name
-          password: ${{ secrets.DOCKER_PASSWORD }} # Use the secret name
+          password: ${{ secrets.DOCKER_PASSWORD }} # Use the secret pass
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
