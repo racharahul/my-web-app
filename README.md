@@ -1,4 +1,4 @@
-# Containerized Calculator Web Application
+# Containerized Calculator Web App
 
 This project demonstrates a containerized web application that implements a simple calculator. It utilizes Docker for containerization, NGINX as a reverse proxy, and GitHub Actions for continuous integration and continuous deployment (CI/CD).
 
